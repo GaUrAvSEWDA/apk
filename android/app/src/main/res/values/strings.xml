@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MyUPI Help</string>
+    <string name="title_activity_main">MyUPI Help</string>
+    <string name="package_name">com.upios.myupihelp</string>
+    <string name="custom_url_scheme">com.upios.myupihelp</string>
+</resources>

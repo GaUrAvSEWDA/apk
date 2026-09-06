@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep -ln \"spa\")",
+      "Bash(grep -rIhoE \".{0,80}\\(spa|prerender\\)\\\\??:.{0,140}\" node_modules/@tanstack/start-plugin-core/dist/esm/schema.d.ts)",
+      "Bash(node scripts/prepare-apk-web.mjs)",
+      "Bash(npm install *)",
+      "Bash([ -f \"$LOG\" ])",
+      "PowerShell(& \"C:\\\\Users\\\\gaura\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--SSD-Downloads-Figma-Flow-Replica\\\\4e644f53-a1a9-4895-94c1-cfc7a8eadf9a\\\\scratchpad\\\\gen-icons.ps1\")",
+      "Bash(node \"C:/Users/gaura/AppData/Local/Temp/claude/D--SSD-Downloads-Figma-Flow-Replica/4e644f53-a1a9-4895-94c1-cfc7a8eadf9a/scratchpad/serve-apk-web.mjs\")",
+      "Bash(npm run *)",
+      "Bash(npx playwright *)",
+      "Bash(curl -s -o /dev/null -w \"GET / -> %{http_code}\\\\n\" http://localhost:4173/)",
+      "Bash(node drive-complaint.mjs)",
+      "Bash(node diag.mjs)",
+      "Bash(node drive2.mjs)",
+      "Bash(node drive-all.mjs)",
+      "Bash(node diag-back.mjs)",
+      "Bash(node verify-final.mjs)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)"
+    ]
+  }
+}
